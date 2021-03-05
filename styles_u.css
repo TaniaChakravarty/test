@@ -1,0 +1,38 @@
+body{
+	background:#494054;	
+}
+
+
+.video-container{
+ position: fixed;
+  top: 50%;
+  left: 50%;
+  right: 50%;
+  bottom:50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translate(-50%, -50%);
+}
+.shelf{
+	position: absolute;
+	right: 50px;
+	bottom: 0px;
+}
+.fish{
+	position: absolute;
+	right:190px;
+	top:150px;
+}
+.bear{
+	position: absolute;
+	right:0px;
+	top:330px;
+}
+.plant{
+	position: absolute;
+	right:85px;
+	top:420px;
+}

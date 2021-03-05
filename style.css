@@ -1,0 +1,31 @@
+body{
+	background-color:#494054; 
+}
+.a{
+	position: relative;
+}
+.img{
+	position: absolute;
+  top: 600px;
+  left: 10px;
+}
+.imgt{
+	position: absolute;
+	top: 205px;
+	right: 607px;
+	z-index: 1;
+}
+.pic{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+.video-container{
+	 position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+    z-index: -100;
+}

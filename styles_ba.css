@@ -1,0 +1,29 @@
+body{
+	background:#494054;	
+	overflow-x:hidden;
+	overflow-y: hidden;
+	margin: 0px;
+	padding: 0px;
+}
+.bg{
+	position: fixed;
+	z-index: -100;
+	width:100%; 
+	height:100%;
+}
+.bubbles{
+	position: fixed;
+	z-index: -100;
+	width:100%; 
+	height:100%;
+}
+.bottle{
+	position: absolute;
+	top: 10px;
+	left: 750px;
+}
+.cactus{
+	position: absolute;
+	top: 79px;
+	left: 800px;
+}
